@@ -19,7 +19,7 @@ public class Server : MonoBehaviour
         }
     }
     public bool coroutineEnd;
-    private string host = "http://ec2-3-35-205-27.ap-northeast-2.compute.amazonaws.com";
+    private string host = "";
     private int port = 3000;
 
     private Server() { }
